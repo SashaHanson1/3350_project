@@ -1,3 +1,30 @@
+# Pip Installation Instructions for Required Libraries:
+# 1. Install OpenCV for computer vision tasks (image processing and machine vision):
+#    pip install opencv-python
+#    pip install opencv-python-headless   # Use this version if GUI features are not needed.
+#
+# 2. Install NumPy for numerical computations and array handling:
+#    pip install numpy
+#
+# 3. Install Tkinter for GUI applications (comes pre-installed with Python for most platforms).
+#    Note: If Tkinter is missing, refer to your system's package manager or Python distribution.
+#
+# 4. Install Pillow for advanced image processing (an improved fork of the Python Imaging Library):
+#    pip install pillow
+#
+# 5. Install Matplotlib for data visualization (e.g., plotting charts):
+#    pip install matplotlib
+#
+# 6. Install other standard libraries:
+#    - JSON, datetime, os, logging, time, sys, traceback, collections, and typing are part of Python's standard library.
+#      No additional installation is required for these.
+#
+# Note: Always ensure you are using a virtual environment to avoid conflicts:
+#       python -m venv myenv
+#       source myenv/bin/activate  # On macOS/Linux
+#       myenv\Scripts\activate     # On Windows
+# After activating, install the packages using the above pip commands.
+
 # Required imports for the M&M Counter System
 import cv2 # computer vision library used for image processing and other related features to machine vision
 import numpy as np
